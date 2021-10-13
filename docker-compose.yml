@@ -3,7 +3,9 @@ version: "3"
 services:
   
   dnscrypt-proxy:
-    build: ./dnscrypt-proxy
+    build:
+      context: ./dnscrypt-proxy
+      network: host
     restart: unless-stopped
     networks:
       dns-net:
