@@ -5,7 +5,7 @@ client -> pi-hole -> dnscrypt-proxy -> dns-servers
 
 # Requirements
 
-- docker-compose
+- docker-compose (file format > 3.4)
 - available port 53
 
 # Setup
